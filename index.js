@@ -36,14 +36,4 @@ function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "qdggE76Jtbfd9eWJHrssH" });
-// invokeAction({
-//   action: "add",
-//   name: "JHFGHGH",
-//   email: "0129308@jhdsk.com",
-//   phone: 653242 - 23424 - 2342,
-// });
 invokeAction(argv);
-
-// invokeAction({ action: "remove", id: "0G12UZ9kvfos6yOObPyp1" });
